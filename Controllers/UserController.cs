@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SugoiAirServer.Querys;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace SugoiAirServer.Controllers
 {
+    [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -17,7 +20,7 @@ namespace SugoiAirServer.Controllers
             Db = db;
         }
         // GET api/blog
-        [HttpGet("/getuser")]
+        [HttpGet]
         public async Task<IActionResult> GetLatest()
         {
             await Db.Connection.OpenAsync();
