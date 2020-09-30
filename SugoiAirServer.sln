@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SugoiAirServer", "SugoiAirServer.csproj", "{AE26327A-F2E1-4472-AAF7-A4F13BE00136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE26327A-F2E1-4472-AAF7-A4F13BE00136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE26327A-F2E1-4472-AAF7-A4F13BE00136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE26327A-F2E1-4472-AAF7-A4F13BE00136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE26327A-F2E1-4472-AAF7-A4F13BE00136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {775A29FF-8B2F-4426-98A2-F7A63AC54419}
+	EndGlobalSection
+EndGlobal
